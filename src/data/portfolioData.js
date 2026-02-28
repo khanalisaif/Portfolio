@@ -13,8 +13,8 @@ export const portfolioData = {
     experience: "1 Year 4 Months",
     location: "Mau, Uttar Pradesh, India",
     email: "hasansaifkhan0@gmail.com",
-    phone: "+91-9335164488",
-    whatsapp: "919335164488",  // Country code + number (no + or spaces)
+    phone: "+91-8933831760",
+    whatsapp: "918933831760",  // Country code + number (no + or spaces)
     github: "https://github.com/khanalisaif",
     profilePhoto: "/profile.jpg",
     resumePDF: "/resume.pdf",
