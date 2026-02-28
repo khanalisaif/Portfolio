@@ -169,7 +169,7 @@ export const portfolioData = {
   // ── EDUCATION ──────────────────────────────────────────────
   education: [
     {
-      degree: "Graduation (B.Sc.)",
+      degree: "Graduation ",
       institution: "Maharaja Suhel Dev State University",
       year: "2024",
       percentage: null,
