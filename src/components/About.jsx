@@ -23,9 +23,9 @@ export default function About() {
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-12 items-start">
+        <div className="grid grid-cols-1 gap-12 items-start">
           {/* Summary */}
-          <div className="lg:col-span-3 space-y-6">
+          <div className="space-y-6">
             <p className="text-slate-300 text-lg leading-relaxed">
               {personal.summary}
             </p>
@@ -55,34 +55,6 @@ export default function About() {
                 <span key={i} className="font-mono-custom text-xs bg-orange-400/10 text-orange-400 border border-orange-400/20 px-3 py-1 rounded-full">
                   {lang}
                 </span>
-              ))}
-            </div>
-          </div>
-
-          {/* Right: experience bar */}
-          <div className="lg:col-span-2 space-y-6">
-            <div className="gradient-border p-6">
-              <h3 className="font-display text-lg font-semibold text-white mb-6">Tech Proficiency</h3>
-              {[
-                { skill: 'React.js / Next.js', pct: 90 },
-                { skill: 'Node.js / Express', pct: 85 },
-                { skill: 'MongoDB', pct: 85 },
-                { skill: 'TypeScript', pct: 75 },
-                { skill: 'REST API Design', pct: 88 },
-                { skill: 'PostgreSQL / SQL', pct: 70 },
-              ].map((item, i) => (
-                <div key={i} className="mb-4">
-                  <div className="flex justify-between mb-1.5">
-                    <span className="font-mono-custom text-xs text-slate-400">{item.skill}</span>
-                    <span className="font-mono-custom text-xs text-orange-400">{item.pct}%</span>
-                  </div>
-                  <div className="h-1 bg-white/5 rounded-full overflow-hidden">
-                    <div
-                      className="h-full bg-gradient-to-r from-orange-500 to-orange-300 rounded-full transition-all duration-1000"
-                      style={{ width: visible ? `${item.pct}%` : '0%' }}
-                    />
-                  </div>
-                </div>
               ))}
             </div>
           </div>

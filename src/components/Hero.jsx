@@ -177,10 +177,7 @@ export default function Hero() {
               </div>
 
               {/* Badge */}
-              <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-dark-700 border border-orange-400/30 rounded-xl px-4 py-2 flex items-center gap-2 whitespace-nowrap">
-                <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-                <span className="font-mono-custom text-xs text-green-400">Available for hire</span>
-              </div>
+             
             </div>
           </div>
         </div>
