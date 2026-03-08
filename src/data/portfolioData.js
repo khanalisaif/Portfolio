@@ -224,7 +224,7 @@ export const portfolioData = {
 
   // ── STATS (shown on hero/about) ────────────────────────────
   stats: [
-    { label: "Experience", value: "1.4+", unit: "Years" },
+    { label: "Experience", value: "1.5+", unit: "Years" },
     { label: "Projects", value: "40+", unit: "Built" },
     { label: "Technologies", value: "20+", unit: "Mastered" },
     { label: "Efficiency", value: "20%", unit: "Improved" },
