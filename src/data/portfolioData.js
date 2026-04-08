@@ -10,7 +10,7 @@ export const portfolioData = {
     name: "Saif Ali Khan",
     title: "MERN Full Stack Developer",
     subtitle: "Building Scalable Web Applications",
-    experience: "1 Year 5 Months",
+    experience: "5 Months",
     location: "Mau, Uttar Pradesh, India",
     email: "hasansaifkhan0@gmail.com",
     phone: "+91-8933831760",
@@ -18,7 +18,7 @@ export const portfolioData = {
     github: "https://github.com/khanalisaif",
     profilePhoto: "/profile.jpg",
     resumePDF: "/resume.pdf",
-    summary: "Detail-driven MERN Full Stack Developer with 1 year 4 months of hands-on experience in building, optimizing, and deploying scalable web applications. Strong expertise in React.js, Node.js, Express.js, and MongoDB, with real-world exposure to authentication systems, API integrations, and performance optimization. Recognized for clean coding practices, structured problem-solving, and delivering production-ready solutions within collaborative, fast-paced development environments.",
+    summary: "Detail-driven MERN Full Stack Developer with 5 months of hands-on experience in building, optimizing, and deploying scalable web applications. Strong expertise in React.js, Node.js, Express.js, and MongoDB, with real-world exposure to authentication systems, API integrations, and performance optimization. Recognized for clean coding practices, structured problem-solving, and delivering production-ready solutions within collaborative, fast-paced development environments.",
   },
 
   // ── TYPING ANIMATION ROLES ─────────────────────────────────
@@ -49,7 +49,7 @@ export const portfolioData = {
       category: "Backend",
       icon: "Server",
       color: "#A855F7",
-      items: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "OTP", "RBAC", "MVC Architecture"],
+      items: ["Node.js", "Express.js", "REST APIs", "Socket.io", "JWT Authentication", "OTP", "RBAC", "MVC Architecture"],
     },
     {
       category: "Database",
@@ -85,7 +85,7 @@ export const portfolioData = {
       category: "Deployment",
       icon: "Rocket",
       color: "#F97316",
-      items: ["Build Optimization", "Production Issue Handling", "Vercel"],
+      items: ["AWS", "Render", "UptimeRobot", "Build Optimization", "Production Issue Handling", "Vercel"],
     },
   ],
 
@@ -102,21 +102,26 @@ export const portfolioData = {
         "Enhancing UI performance and collaborating with cross-functional teams.",
       ],
     },
-    {
-      role: "Full Stack Developer",
-      company: "Embrizon Technologies",
-      period: "12 Months",
-      type: "Full-time",
-      points: [
-        "Built responsive web applications using React.js and Node.js.",
-        "Worked on frontend UI, backend APIs, database integration, and application optimization.",
-        "Collaborated with team members to deliver production-ready features on schedule.",
-      ],
-    },
   ],
 
   // ── PROJECTS ───────────────────────────────────────────────
   projects: [
+    {
+      title: "OLX Clone",
+      subtitle: "Multi-Vendor Marketplace",
+      description: "A feature-rich multi-vendor marketplace platform encompassing three dedicated panels: User, Seller, and Admin. It facilitates a complete e-commerce ecosystem where different user roles have customized access and capabilities.",
+      features: [
+        "User Panel: Dedicated interface for customers to exclusively browse and purchase products.",
+        "Seller Panel: Enables users to both purchase items and list their own products for sale with image uploads.",
+        "Admin Panel: Centralized dashboard for administrators to efficiently manage all platform products and users.",
+        "Live Chat: Integrated real-time messaging option available for users after logging in.",
+        "Admin Demo Credentials — Email: saifadmin@gmail.com | Password: saifadmin321"
+      ],
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "Tailwind CSS"],
+      liveUrl: "https://slx.saifalikhan.in",
+      githubUrl: "https://github.com/khanalisaif",
+      featured: true,
+    },
     {
       title: "High-Scale Energy Ingestion Engine",
       subtitle: "MERN Full Stack",
@@ -224,7 +229,7 @@ export const portfolioData = {
 
   // ── STATS (shown on hero/about) ────────────────────────────
   stats: [
-    { label: "Experience", value: "1.5+", unit: "Years" },
+    { label: "Experience", value: "5+", unit: "Months" },
     { label: "Projects", value: "40+", unit: "Built" },
     { label: "Technologies", value: "20+", unit: "Mastered" },
     { label: "Efficiency", value: "20%", unit: "Improved" },
